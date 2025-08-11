@@ -8,26 +8,6 @@ modules:
       module: access-control
       name: Access Control
 
-  - import:
-      dojo: intro-to-cybersecurity-dojo
-      module: web-security
-      name: Web Security
-
-  - import:
-      dojo: intro-to-cybersecurity-dojo
-      module: intercepting-communication
-      name: Intercepting Communication
-
-  - import:
-      dojo: intro-to-cybersecurity-dojo
-      module: assembly-crash-course
-      name: Assembly Crash Course
-
-  - import:
-      dojo: intro-to-cybersecurity-dojo
-      module: reverse-engineering
-      name: Reverse Engineering
-
   - id: planet
     name: Planet
     description: A couple planets.
