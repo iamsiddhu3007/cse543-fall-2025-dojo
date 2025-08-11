@@ -3,17 +3,36 @@ name: CSE 543 - Fall 2025
 type: course
 
 modules:
+  - import:
+      dojo: intro-to-cybersecurity-dojo
+      module: access-control
+      name: Access Control
 
   - import:
-      dojo: example
-      module: hello
+      dojo: intro-to-cybersecurity-dojo
+      module: web-security
+      name: Web Security
+
+  - import:
+      dojo: intro-to-cybersecurity-dojo
+      module: intercepting-communication
+      name: Intercepting Communication
+
+  - import:
+      dojo: intro-to-cybersecurity-dojo
+      module: assembly-crash-course
+      name: Assembly Crash Course
+
+  - import:
+      dojo: intro-to-cybersecurity-dojo
+      module: reverse-engineering
+      name: Reverse Engineering
 
   - id: planet
     name: Planet
     description: A couple planets.
 
     challenges:
-
       - import:
           dojo: example
           module: world
