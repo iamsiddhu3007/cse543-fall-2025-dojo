@@ -9,50 +9,50 @@ letter_grades:
   "C": 0.60
   "D": 0.50
   "E": 0.00
-
+  
 student_id: "Alternative ID (10-digit number, starts with 8)"
-
+  
 assessments:
   - type: due
     id: assembly-crash-course
     name: "Assembly Crash Course"
     date: "2025-10-19T23:59:59-07:00"
-    weight: 1
+    weight: 0.20
     late_penalty: 0.5
     extensions: []
-
+  
   - type: due
     id: reverse-engineering
     name: "Reverse Engineering"
     date: "2025-10-19T23:59:59-07:00"
-    weight: 1
+    weight: 0.20
     late_penalty: 0.5
     extensions: []
-
+  
   - type: due
     id: intercepting-communication
     name: "Intercepting Communication"
     date: "2025-10-19T23:59:59-07:00"
-    weight: 1
+    weight: 0.20
     late_penalty: 0.5
     extensions: []
-
+  
   - type: due
     id: access-control
     name: "Access Control"
     date: "2025-10-19T23:59:59-07:00"
-    weight: 1
+    weight: 0.20
     late_penalty: 0.5
     extensions: []
-
+  
   - type: due
     id: web-security
     name: "Web Security"
     date: "2025-10-19T23:59:59-07:00"
-    weight: 1
+    weight: 0.20
     late_penalty: 0.5
     extensions: []
-
+  
 syllabus: |
   # Zoom Support Session
   # W 10:00 AM - 11:00 AM
