@@ -1,2 +1,1 @@
-This is an [example dojo](https://github.com/pwncollege/example-dojo).
-Fork this repository, and create your own dojo!
+Arizona State University - CSE 543 - Spring 2025
