@@ -24,7 +24,7 @@ modules:
   - id: assembly-crash-course
     name: Assembly Crash Course
     import:
-      dojo: intro-to-cybersecurity
+      dojo: computing-101
       module: assembly-crash-course
 
   - id: reverse-engineering
