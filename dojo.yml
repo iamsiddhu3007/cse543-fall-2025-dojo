@@ -1,8 +1,6 @@
 id: cse543-fall-2025
 name: CSE 543 - Fall 2025
 type: course
-award:
-  emoji: 😀
 image: pwncollege/challenge-simple
 modules:
   - id: hello
