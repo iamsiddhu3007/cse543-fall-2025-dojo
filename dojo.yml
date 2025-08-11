@@ -8,6 +8,14 @@ type: course
 visibility:
   start: "2025-01-15T00:00:00-07:00"
 
+resources:
+  - name: "Course Home & Zoom"
+    type: markdown
+    content: |
+      **Course Homepage:** CSE 543 - Fall 2025  
+      **Support Session:** Wednesdays 10:00 AM – 11:00 AM  
+      [Join Zoom](https://asu.zoom.us/j/82447083647)
+
 modules:
 - import:
     dojo: intro-to-cybersecurity
