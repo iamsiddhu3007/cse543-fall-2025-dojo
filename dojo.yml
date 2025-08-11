@@ -6,31 +6,31 @@ modules:
   - id: access-control
     name: Access Control
     import:
-      dojo: intro-to-cybersecurity-dojo
+      dojo: intro-to-cybersecurity
       module: access-control
 
   - id: web-security
     name: Web Security
     import:
-      dojo: intro-to-cybersecurity-dojo
+      dojo: intro-to-cybersecurity
       module: web-security
 
   - id: intercepting-communication
     name: Intercepting Communication
     import:
-      dojo: intro-to-cybersecurity-dojo
+      dojo: intro-to-cybersecurity
       module: intercepting-communication
 
   - id: assembly-crash-course
     name: Assembly Crash Course
     import:
-      dojo: intro-to-cybersecurity-dojo
+      dojo: intro-to-cybersecurity
       module: assembly-crash-course
 
   - id: reverse-engineering
     name: Reverse Engineering
     import:
-      dojo: intro-to-cybersecurity-dojo
+      dojo: intro-to-cybersecurity
       module: reverse-engineering
 
   # Your custom example module can stay as-is:
