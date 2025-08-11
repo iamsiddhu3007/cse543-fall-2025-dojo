@@ -1,8 +1,27 @@
 id: cse543-fall-2025
 name: CSE 543 - Fall 2025
 type: course
-image: pwncollege/challenge-simple
+
 modules:
-  - id: hello
-  - id: world
-  - id: demo
+
+  - import:
+      dojo: example
+      module: hello
+
+  - id: planet
+    name: Planet
+    description: A couple planets.
+
+    challenges:
+
+      - import:
+          dojo: example
+          module: world
+          challenge: earth
+
+      - import:
+          dojo: example
+          module: world
+          challenge: mars
+        name: Martian Planet
+        description: This is a martian planet... mars.
