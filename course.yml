@@ -16,35 +16,35 @@ assessments:
 
 - type: due
   id: assembly-crash-course
-  date: "2025-03-16T23:59:59-07:00"
+  date: "2025-10-19T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: reverse-engineering
-  date: "2025-03-16T23:59:59-07:00"
+  date: "2025-10-19T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
   
 - type: due
   id: intercepting-communication
-  date: "2025-03-16T23:59:59-07:00"
+  date: "2025-10-19T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: access-control
-  date: "2025-03-16T23:59:59-07:00"
+  date: "2025-10-19T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
 
 - type: due
   id: web-security
-  date: "2025-03-16T23:59:59-07:00"
+  date: "2025-10-19T23:59:59-07:00"
   weight: 1
   late_penalty: 0.5
   extensions:
@@ -54,5 +54,5 @@ assessments:
 syllabus: |
   # Zoom Support Session
   # W 10:00 AM - 11:00 AM
-  [Zoom Link](https://asu.zoom.us/j/86754876836?pwd=eneqxAUMHsrqSMDNuch8tXwU4ebrm1.1)
+  [Zoom Link](https://asu.zoom.us/j/82447083647)
   <br>
