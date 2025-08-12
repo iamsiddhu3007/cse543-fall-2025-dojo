@@ -1,4 +1,4 @@
-id: cse543-fall-2025
+id: csecse543-fall-2025
 name: CSE 543 - Fall 2025
 description: |
   Arizona State University - CSE 543 - Fall 2025
@@ -198,7 +198,6 @@ modules:
       dojo: program-security
       module: reverse-engineering
       challenge: level-11-1
-
   resources:
     - name: "Reverse Engineering: Introduction"
       type: lecture

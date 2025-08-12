@@ -1,1 +1,1 @@
-Arizona State University - CSE 543 - Spring 2025
+Arizona State University - CSE 543 - Fall 2025
