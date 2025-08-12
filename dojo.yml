@@ -3,73 +3,7 @@ name: CSE 543 - Fall 2025
 description: |
   Arizona State University - CSE 543 - Fall 2025
 
-# --- Merged from course.yml and students.yml ---
-
 type: course
-
-letter_grades:
-  "A+": 1.00
-  "A": 0.90
-  "A-": 0.85
-  "B+": 0.80
-  "B": 0.75
-  "B-": 0.70
-  "C+": 0.65
-  "C": 0.60
-  "D": 0.50
-  "E": 0.00
-
-student_id: "ASU Student ID (10-digit number)"
-
-start_date: "2025-08-21T00:00:00-07:00"
-
-students:
-  - "1234567890"
-  - "0987654321"
-
-assessments:
-- type: due
-  id: assembly-crash-course
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-
-- type: due
-  id: reverse-engineering
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-  
-- type: due
-  id: intercepting-communication
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-
-- type: due
-  id: access-control
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-
-- type: due
-  id: web-security
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-
-syllabus: |
-  # Zoom Support Session
-  # W 10:00 AM - 11:00 AM
-  [Zoom Link](https://asu.zoom.us/j/86754876836?pwd=eneqxAUMHsrqSMDNuch8tXwU4ebrm1.1)
-  <br>
-
-# --- Original dojo.yml content ---
 
 visibility:
   start: "2025-08-21T00:00:00-07:00"
@@ -87,6 +21,7 @@ modules:
   visibility:
     start: "2025-08-21T12:00:00-07:00"
        
+    
 - import:
     dojo: intro-to-cybersecurity
     module: intercepting-communication
