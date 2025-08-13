@@ -29,6 +29,12 @@ max_extra: 10
 # Assessments - these IDs MUST match your module IDs in dojo.yml
 assessments:
   # This matches the imported module from computing-101
+  - type: due
+    id: assembly-crash-course  # This should match the module ID
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
   # This matches your local module in dojo.yml
   - type: due
@@ -39,6 +45,26 @@ assessments:
     extensions: {}
     
   # These match the imported modules from intro-to-cybersecurity
+  - type: due
+    id: intercepting-communication
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
+
+  - type: due
+    id: access-control
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
+
+  - type: due
+    id: web-security
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
 # Syllabus content
 syllabus: |
