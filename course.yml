@@ -1,3 +1,10 @@
+# Corrected course.yml - should match your dojo.yml structure
+
+# Basic course info (should match dojo.yml)
+name: "CSE 543 - Fall 2025"
+id: "cse543-fall-2025"
+
+# Letter grades configuration
 letter_grades:
   "A+": 1.00
   "A": 0.90
@@ -10,50 +17,80 @@ letter_grades:
   "D": 0.50
   "E": 0.00
 
-student_id: "ASU Student ID (10-digit number)"
+# Identity configuration (this should match what the template expects)
+identity:
+  name: "ASU Student ID (10-digit number)"  # Changed from student_id to identity.name
+  required: true
 
+# Course dates
 start_date: "2025-08-21T00:00:00-07:00"
+max_extra: 10
 
-max_extra : 10
-
+# Assessments - these IDs MUST match your module IDs in dojo.yml
 assessments:
-- type: due
-  id: assembly-crash-course
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
+  # This matches the imported module from computing-101
+  - type: due
+    id: assembly-crash-course  # This should match the module ID
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
-- type: due
-  id: reverse-engineering
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
-  
-- type: due
-  id: intercepting-communication
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
+  # This matches your local module in dojo.yml
+  - type: due
+    id: reverse-engineering    # This should match the module ID
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
+    
+  # These match the imported modules from intro-to-cybersecurity
+  - type: due
+    id: intercepting-communication
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
-- type: due
-  id: access-control
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
+  - type: due
+    id: access-control
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
-- type: due
-  id: web-security
-  date: "2025-10-19T23:59:59-07:00"
-  weight: 0.2
-  late_penalty: 0.5
-  extensions: {}
+  - type: due
+    id: web-security
+    date: "2025-10-19T23:59:59-07:00"
+    weight: 0.2
+    late_penalty: 0.5
+    extensions: {}
 
+# Syllabus content
 syllabus: |
-  # Zoom Support Session
-  # W 10:00 AM - 11:00 AM
-  [Zoom Link](https://asu.zoom.us/j/86754876836?pwd=eneqxAUMHsrqSMDNuch8tXwU4ebrm1.1)
-  <br>
+  # CSE 543 - Computer Systems Security
+  
+  ## Zoom Support Session
+  **When**: Wednesday 10:00 AM - 11:00 AM  
+  **Where**: [Zoom Link](https://asu.zoom.us/j/86754876836?pwd=eneqxAUMHsrqSMDNuch8tXwU4ebrm1.1)
+  
+  ## Course Overview
+  Arizona State University - CSE 543 - Fall 2025
+  
+  This course covers fundamental concepts in computer systems security through hands-on practice with the pwn.college platform.
+  
+  ## Modules
+  1. **Assembly Crash Course** - Foundation in assembly language programming
+  2. **Reverse Engineering** - Binary analysis and reverse engineering techniques  
+  3. **Access Control** - Understanding authentication and authorization
+  4. **Web Security** - Web application security fundamentals
+  5. **Intercepting Communication** - Network security and cryptography
+  
+  ## Grading
+  - Each module: 20% of final grade
+  - Late penalty: 50% after due date
+  - All assignments due: October 19, 2025 at 11:59 PM
+  
+  ## Important Dates
+  - Course start: August 21, 2025
+  - All assessments due: October 19, 2025
