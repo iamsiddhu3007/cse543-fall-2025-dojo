@@ -14,6 +14,8 @@ student_id: "ASU Student ID (10-digit number)"
 
 start_date: "2025-08-21T00:00:00-07:00"
 
+max_extra : 10
+
 assessments:
 - type: due
   id: assembly-crash-course
