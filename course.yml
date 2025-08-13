@@ -1,10 +1,6 @@
-# Corrected course.yml - should match your dojo.yml structure
-
-# Basic course info (should match dojo.yml)
 name: "CSE 543 - Fall 2025"
 id: "cse543-fall-2025"
 
-# Letter grades configuration
 letter_grades:
   "A+": 1.00
   "A": 0.90
@@ -17,34 +13,27 @@ letter_grades:
   "D": 0.50
   "E": 0.00
 
-# Identity configuration (this should match what the template expects)
 identity:
-  name: "ASU Student ID (10-digit number)"  # Changed from student_id to identity.name
-  required: true
+  name: "ASU Student ID (10-digit number)"
 
-# Course dates
 start_date: "2025-08-21T00:00:00-07:00"
 max_extra: 10
 
-# Assessments - these IDs MUST match your module IDs in dojo.yml
 assessments:
-  # This matches the imported module from computing-101
   - type: due
-    id: assembly-crash-course  # This should match the module ID
+    id: assembly-crash-course
     date: "2025-10-19T23:59:59-07:00"
     weight: 0.2
     late_penalty: 0.5
     extensions: {}
 
-  # This matches your local module in dojo.yml
   - type: due
-    id: reverse-engineering    # This should match the module ID
+    id: reverse-engineering
     date: "2025-10-19T23:59:59-07:00"
     weight: 0.2
     late_penalty: 0.5
     extensions: {}
     
-  # These match the imported modules from intro-to-cybersecurity
   - type: due
     id: intercepting-communication
     date: "2025-10-19T23:59:59-07:00"
@@ -66,7 +55,6 @@ assessments:
     late_penalty: 0.5
     extensions: {}
 
-# Syllabus content
 syllabus: |
   # CSE 543 - Computer Systems Security
   

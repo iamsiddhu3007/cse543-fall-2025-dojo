@@ -1,5 +1,3 @@
-# Corrected dojo.yml - removed invalid 'course' key
-
 id: cse543-fall-2025
 name: "CSE 543 - Fall 2025"
 description: |
@@ -11,7 +9,6 @@ visibility:
   start: "2025-08-21T00:00:00-07:00"
 
 modules:
-  # Fix 1: Ensure imported modules have consistent structure
   - import:
       dojo: intro-to-cybersecurity
       module: access-control
@@ -36,7 +33,6 @@ modules:
     visibility:
       start: "2025-08-21T12:00:00-07:00"
     
-  # Fix 2: Add missing fields to local module and ensure proper structure
   - id: reverse-engineering
     name: "Reverse Engineering"
     description: |
@@ -51,7 +47,6 @@ modules:
     visibility:
       start: "2025-08-21T12:00:00-07:00"
     
-    # Fix 3: Organize challenges into proper structure
     challenges:
       - name: "Debugging Refresher: level1"
         import:
@@ -204,7 +199,6 @@ modules:
           module: reverse-engineering
           challenge: level-11-1
     
-    # Fix 4: Keep resources but ensure proper formatting
     resources:
       - name: "Reverse Engineering: Introduction"
         type: lecture
