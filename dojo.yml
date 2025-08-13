@@ -20,8 +20,7 @@ modules:
     module: web-security
   visibility:
     start: "2025-08-21T12:00:00-07:00"
-       
-    
+
 - import:
     dojo: intro-to-cybersecurity
     module: intercepting-communication
