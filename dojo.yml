@@ -1,13 +1,11 @@
+# Corrected dojo.yml - removed invalid 'course' key
+
 id: cse543-fall-2025
 name: "CSE 543 - Fall 2025"
 description: |
   Arizona State University - CSE 543 - Fall 2025
 
 type: course
-
-# Course-specific configuration
-course:
-  enabled: true  # Explicitly enable course functionality
 
 visibility:
   start: "2025-08-21T00:00:00-07:00"
