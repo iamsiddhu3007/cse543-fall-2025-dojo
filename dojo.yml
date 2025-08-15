@@ -3,8 +3,6 @@ name: "CSE 543 - Fall 2025"
 description: |
   Arizona State University - CSE 543 - Fall 2025
 
-type: course
-
 visibility:
   start: "2025-08-21T00:00:00-07:00"
 
